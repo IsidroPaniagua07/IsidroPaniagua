@@ -38,12 +38,12 @@ const HomePageDesktop = () => {
             <p>Redux</p>
             <p className='px-4'>NodeJS</p>
             <p>SQL &nbsp;&&nbsp; MongoDB</p>
-            <p className='px-4'>TailwindCSS & CSS5</p>
+            <p className='px-4'>NextJS</p>
         </div>
-        <div className='h-1/6 w-full flex flex-col justify-center items-center mt-12 text-xl pointer-events-none'>
-            <p className='italic text-3xl pb-2'>Hello!</p> 
-            <p className='text-center'>I'm a Javascript Developer building full-stack web applications</p>
-            <p className='pb-2'>with an emphasis on responsive front-end user experiences.</p>
+        <div className='h-1/6 w-full flex flex-col justify-center items-center mt-12 text-xl pointer-events-none pb-2'>
+            <p className='italic text-3xl '>Hello!</p> 
+            <p className='text-center'>I'm a Javascript developer building full-stack web applications</p>
+            <p className=''>I'm passionate about building functional products to ease end-user experiences.</p>
             <p>Please check out my work below and take a look at my GitHub.</p>
         </div>
         <div className="h-1/2 w-full flex justify-center items-center">
@@ -66,14 +66,14 @@ const HomePageDesktop = () => {
         <div className=' h-full w-full flex flex-col'>
             <div className='h-4/5 w-full overflow-y-scroll'>
                 {modalType==="internal"
-                ?<div className='grid grid-cols-4 gap-2 justify-center items-center py-2'>
+                ?<div className='grid grid-cols-4 justify-center items-center py-2'>
                     <img src={IMAGES.EventPage} alt="" className='col-span-2' />
                     <img src={IMAGES.EventList} alt="" className='col-span-2' />
                     <img src={IMAGES.SearchResults} alt="" className='col-span-2' />
                     <img src={IMAGES.EditModal} alt="" className='col-span-2' />
                     <img src={IMAGES.AdminCenter} alt="" className='col-start-2 col-span-2' />
                 </div>
-                :<div className='grid grid-cols-2 gap-2 justify-center items-center'>
+                :<div className='grid grid-cols-2 justify-center items-center'>
                     <img src={IMAGES.Board} alt="" className='' />
                     <img src={IMAGES.ControlsLarge} alt="" className='h-full' />
                 </div>

@@ -36,7 +36,7 @@ const HomePageMobile = () => {
             <p className='col-start-5 col-span-4'>React & Redux</p>
             <p className='col-start-10'>NodeJS</p>
             <p className='row-start-2 col-start-2 col-span-5 text-sm'>SQL & MongoDB</p>
-            <p className='row-start-2 col-start-6 col-span-6 text-sm'>TailwindCSS & CSS5</p>
+            <p className='row-start-2 col-start-6 col-span-6 text-sm'>NextJS</p>
         </div>
         <div className='h-1/6 w-full flex flex-col justify-center items-center text-sm text-center pointer-events-none mt-20 mb-36'>
             <p className='italic text-3xl pb-2'>Hello!</p> 
