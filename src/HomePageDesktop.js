@@ -7,12 +7,12 @@ const HomePageDesktop = () => {
     const [ isOpen, setIsOpen ] = useState(false)
     const [ modalType, setModalType ] = useState("")
 
-    const handleModal = (e) => {
-        const { id } = e.target
-        setModalType(id)
-        setIsOpen(true)
+    // const handleModal = (e) => {
+    //     const { id } = e.target
+    //     setModalType(id)
+    //     setIsOpen(true)
 
-    }
+    // }
 
     document.addEventListener('click', (event) => {
         if (event.target.id === 'portalbackground' && ( isOpen === true)) {
