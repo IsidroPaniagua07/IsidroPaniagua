@@ -20,7 +20,8 @@ const HomePageDesktop = () => {
             setModalType("")
         }
         });
-  
+
+          
   return (
 <>
     <div className="w-full h-full flex flex-col justify-between items-center bg-black text-white">
@@ -44,13 +45,13 @@ const HomePageDesktop = () => {
             <p className='italic text-3xl '>Hello!</p> 
             <p className='text-center'>I'm a Javascript developer building full-stack web applications</p>
             <p className=''>I'm passionate about building functional products to ease end-user experiences.</p>
-            <p>Please check out my work below and take a look at my GitHub.</p>
+            <p>Please check out my work on my GitHub.</p>
         </div>
         <div className="h-1/2 w-full flex justify-center items-center">
-            <div className=' w-full flex flex-row gap-10 justify-center'>
+            {/* <div className=' w-full flex flex-row gap-10 justify-center'>
                 <img id="internal" src={IMAGES.InternalThumbNail} onClick={(e) => handleModal(e)} alt="" className='opacity-70 hover:opacity-100 duration-300 ease-in-out' />
                 <img id="bingo" src={IMAGES.BingoThumbNail} onClick={(e) => handleModal(e)} alt="" className='opacity-70 hover:opacity-100 duration-300 ease-in-out' />
-            </div>
+            </div> */}
         </div>
         <div className="h-1/4 min-h-[40px] w-full flex items-center justify-center gap-6">
             <a href="https://www.linkedin.com/in/isidropaniagua/" rel="noopener noreferrer" target="_blank">
