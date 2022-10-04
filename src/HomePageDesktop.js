@@ -24,8 +24,8 @@ const HomePageDesktop = () => {
           
   return (
 <>
-    <div className="w-full h-full flex flex-col justify-between items-center bg-black text-white">
-        <div className="h-1/4 w-fit flex flex-col justify-end items-center border-b border-white pb-1 opacity-70 pointer-events-none">
+    <div className="w-full h-full flex flex-col justify-between items-center">
+        <div className="h-1/4 w-fit flex flex-col justify-end items-center border-b border-[#152852] pb-1 opacity-70 pointer-events-none">
             <div className="font-bold text-7xl ">
                 Isidro Paniagua
             </div>
