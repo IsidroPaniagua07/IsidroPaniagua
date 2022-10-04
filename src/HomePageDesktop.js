@@ -45,7 +45,7 @@ const HomePageDesktop = () => {
             <p className='italic text-3xl '>Hello!</p> 
             <p className='text-center'>I'm a Javascript developer building full-stack web applications.</p>
             <p className=''>I'm passionate about building functional products that are enjoyable end-user experiences.</p>
-            <p>Please check out my work on my GitHub and have a great day.</p>
+            <p className='pt-8'>Please check out my work on my GitHub and have a great day.</p>
         </div>
         <div className="h-1/2 w-full flex justify-center items-center">
             {/* <div className=' w-full flex flex-row gap-10 justify-center'>
