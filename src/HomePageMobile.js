@@ -40,7 +40,7 @@ const HomePageMobile = () => {
         </div>
         <div className='h-1/6 w-full flex flex-col justify-center items-center text-sm text-center pointer-events-none mt-20 mb-36'>
             <p className='italic text-3xl pb-2'>Hello!</p> 
-            <p className='text-center'>I'm a Javascript & React developer based in San Diego, CA.</p>
+            <p className='text-center'>I'm a Javascript & React developer from San Diego, CA.</p>
             <p className=''>I'm passionate about building functional products that are enjoyable end-user experiences.</p>
             <p className='pt-8'>Please check out my work on my GitHub and have a great day.</p>
         </div>
