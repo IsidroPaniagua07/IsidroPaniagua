@@ -22,8 +22,8 @@ const HomePageMobile = () => {
 
   return (
 <>
-    <div className="w-full h-full flex flex-col items-center px-2">
-        <div className="h-fit w-fit flex flex-col justify-end items-center border-b border-white py-4 opacity-70 pointer-events-none">
+    <div className="w-full h-fit flex flex-col items-center px-2">
+        <div className="h-fit w-fit flex flex-col justify-end items-center pt-4 border-b border-[#152852] opacity-70 pointer-events-none">
             <div className="font-bold text-4xl ">
                 Isidro Paniagua
             </div>
