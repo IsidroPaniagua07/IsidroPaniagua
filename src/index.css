@@ -20,14 +20,7 @@ body {
   }
 }
 
-/* .spacer { 
-  min-height: 100%;
-  width:auto;
 
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-} */
 .spacer { 
   aspect-ratio: 960/540;
   width: 100%;
@@ -37,6 +30,6 @@ body {
   background-size: cover;
 }
 
-.layer {
+.bg-image {
   background-image: url('./layer.svg')
 }

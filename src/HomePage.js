@@ -1,7 +1,7 @@
 import { useMediaQuery } from 'react-responsive'
 import HomePageDesktop from './HomePageDesktop'
 import HomePageMobile from './HomePageMobile'
-import background from './layer.svg'
+
 
 const HomePage = () => {
     const Desktop = ({ children }) => {
@@ -14,7 +14,7 @@ const HomePage = () => {
       }
   return (
       <>
-    <div className='spacer layer'>
+    <div className='spacer bg-image'>
   <Desktop>
         <HomePageDesktop/>
     </Desktop>

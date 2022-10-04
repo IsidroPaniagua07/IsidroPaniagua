@@ -40,8 +40,9 @@ const HomePageMobile = () => {
         </div>
         <div className='h-1/6 w-full flex flex-col justify-center items-center text-sm text-center pointer-events-none mt-20 mb-36'>
             <p className='italic text-3xl pb-2'>Hello!</p> 
-            <p className=''>I'm a Javascript Developer building full-stack web applications with an emphasis on responsive front-end user experiences.</p>
-            <p className='pt-8 text-lg'>Please check out my work on my GitHub.</p>
+            <p className='text-center'>I'm a Javascript developer building full-stack web applications.</p>
+            <p className=''>I'm passionate about building functional products that are enjoyable end-user experiences.</p>
+            <p className='pt-8 text-lg'>Please check out my work on my GitHub and have a great day.</p>
         </div>
         {/* <div className="h-full w-full flex justify-center items-center overflow-x-scroll">
             <div className=' w-full flex flex-row gap-10 justify-center'>
